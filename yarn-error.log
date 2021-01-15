@@ -1,0 +1,78 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ROG\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\phpstudy_pro\Extensions\php\php7.3.4nts;C:\Users\ROG\AppData\Local\Android\Sdk\platform-tools;C:\Users\ROG\AppData\Local\Android\Sdk\emulator;C:\Users\ROG\AppData\Local\Android\Sdk\tools;C:\Users\ROG\AppData\Local\Android\Sdk\tools\bin;C:\Users\ROG\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\Users\ROG\AppData\Local\Microsoft\WindowsApps;C:\Users\ROG\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ROG\AppData\Roaming\npm;C:\Users\ROG\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\ROG\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141289:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:784:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:483:8)
+      at listOnTimeout (internal/timers.js:554:17)
+      at processTimers (internal/timers.js:497:7)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject",
+      "test": "jest --watchAll"
+    },
+    "jest": {
+      "preset": "jest-expo"
+    },
+    "dependencies": {
+      "@expo/vector-icons": "^12.0.0",
+      "@react-native-community/masked-view": "0.1.10",
+      "@react-navigation/bottom-tabs": "^5.11.1",
+      "@react-navigation/native": "^5.8.9",
+      "@react-navigation/stack": "^5.12.6",
+      "expo": "~40.0.0",
+      "expo-asset": "~8.2.1",
+      "expo-constants": "~9.3.0",
+      "expo-font": "~8.4.0",
+      "expo-linking": "~2.0.0",
+      "expo-splash-screen": "~0.8.0",
+      "expo-status-bar": "~1.0.3",
+      "expo-web-browser": "~8.6.0",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+      "react-native-gesture-handler": "~1.8.0",
+      "react-native-safe-area-context": "3.1.9",
+      "react-native-screens": "~2.15.0",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0",
+      "@types/react": "~16.9.35",
+      "@types/react-native": "~0.63.2",
+      "jest-expo": "~40.0.0",
+      "typescript": "~4.0.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
